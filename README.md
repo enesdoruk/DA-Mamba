@@ -25,15 +25,15 @@ Unsupervised domain adaptation (UDA) for object detection adapts models trained 
 ## Results
 
 <p align="center">
-  <img width="500" src="assets/overall_arch.png">
+  <img width="500" src="assets/cityscapes.png">
 </p>
 
 <p align="center">
-  <img width="500" src="assets/overall_arch.png">
+  <img width="500" src="assets/clipart.png">
 </p>
 
 <p align="center">
-  <img width="500" src="assets/overall_arch.png">
+  <img width="500" src="assets/watercolor.png">
 </p>
 
 ## Citation
