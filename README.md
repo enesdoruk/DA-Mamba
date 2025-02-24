@@ -22,6 +22,17 @@ Unsupervised domain adaptation (UDA) for object detection adapts models trained 
   <img width="500" src="assets/overall_arch.png">
 </p>
 
+## Requirements and Installation
+> - Python >= 3.9, PyTorch >= 2.0.1
+> - CUDA >= 11.8
+
+- Clone Repo and Install Dependencies
+    ```bash
+   git clone https://github.com/enesdoruk/DAVimNet.git
+   cd DAVimNet
+   conda env create --file=environment.yml
+   ```
+    
 ## Results
 
 <p align="center">
