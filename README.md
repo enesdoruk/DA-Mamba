@@ -22,6 +22,16 @@ Unsupervised domain adaptation (UDA) for object detection adapts models trained 
   <img width="500" src="assets/overall_arch.png">
 </p>
 
+#### Contents
+
+1. [Requirements and Installation](#Requirements-and-Installation)
+1. [Datasets](#Datasets)
+1. [Training](#Training)
+1. [Results](#Results)
+1. [Citation](#Citation)
+1. [License and Acknowledgement](#License-and-Acknowledgement)
+
+
 ## Requirements and Installation
 > - Python >= 3.9, PyTorch >= 2.0.1
 > - CUDA >= 11.8
@@ -32,7 +42,21 @@ Unsupervised domain adaptation (UDA) for object detection adapts models trained 
    cd DAVimNet
    conda env create --file=environment.yml
    ```
-    
+
+
+## Datasets
+
+* **PASCAL_VOC 07+12**: Please follow the [instruction](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) to prepare VOC dataset.
+* **Clipart/WaterColor**: Please follow the [instruction](https://github.com/naoto0804/cross-domain-detection/tree/master/datasets) to prepare dataset.
+* **CitysScape, FoggyCityscape**: Download website [Cityscape](https://www.cityscapes-dataset.com/), see dataset preparation code in [DA-Faster RCNN](https://github.com/yuhuayc/da-faster-rcnn/tree/master/prepare_data)
+
+## Training
+** You should arange hyperparameters if you do not use on official hyperparamters which are mentioned in the paper
+```bash
+   bash scripts/train_davimnet.sh
+   ```
+
+
 ## Results
 
 <p align="center">
