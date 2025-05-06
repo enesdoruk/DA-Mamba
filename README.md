@@ -57,16 +57,6 @@ Recent 2D CNN-based domain adaptation approaches struggle with long-range depend
    ```
 
 
-## Results
-
-<p align="center">
-  <img width="500" src="assets/clipart.png">
-</p>
-
-<p align="center">
-  <img width="500" src="assets/watercolor.png">
-</p>
-
 ## Citation
   ```
   @article{doruk2025davimnet,
